@@ -45,6 +45,16 @@ npm link
 mysysinfo
 ```
 
+## Install via NPM
+
+```bash
+npm install -g sys-info
+```
+
+```bash
+mysysinfo
+```
+
 ## Library
 
 Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminformation>
