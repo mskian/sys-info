@@ -3,6 +3,9 @@ node_modules
 .eslintrc.js
 .gitignore
 .npmignore
+.tarvis.yml
+screenshot.png
+screenshot1.png
 .git*
 
 # Optional npm cache directory

@@ -6,6 +6,8 @@
 
 ![Sys Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot.png)  
 
+![Sys Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot1.png)  
+
 ## Requirements
 
 - Node 8x or 10x LTS
@@ -23,6 +25,12 @@ npm install
 
 ```bash
 node system.js
+```
+
+OR
+
+```bash
+npm start
 ```
 
 ## Used as CLI
