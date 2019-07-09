@@ -46,9 +46,18 @@ async function go() {
 		console.log(chalk.blueBright('---------------------------'));
 		console.log(chalk.cyanBright('Platform:' + sysos.platform));
 		console.log(chalk.cyanBright('Distro:' + sysos.distro));
-		console.log(chalk.cyanBright('CODE:' + sysos.codename));
+		if (sysos.codename == 0) {
+			console.log(chalk.cyanBright('CODE: n/a'));
+		} else {
+			console.log(chalk.cyanBright('CODE:' + sysos.codename));
+		}
 		console.log(chalk.cyanBright('Version:' + sysos.release));
 		console.log(chalk.cyanBright('Kernel:' + sysos.kernel));
+		if (sysos.build == 0) {
+			console.log(chalk.cyanBright('Build: n/a'));
+		} else {
+			console.log(chalk.cyanBright('Build:' + sysos.build));
+		}
 		console.log(chalk.cyanBright('Architecture:' + sysos.arch));
 		console.log(chalk.blueBright('---------------------------'));
 		console.log(chalk.magentaBright('Brand:' + syscpu.brand));
