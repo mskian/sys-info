@@ -1,4 +1,4 @@
-# System INFO
+# MY System INFO
 
 > Get your Linux or Windows System Info 🗃  
 
@@ -48,7 +48,7 @@ mysysinfo
 ## Install via NPM
 
 ```bash
-npm install -g system-info
+npm install -g mysystem-info
 ```
 
 ```bash
