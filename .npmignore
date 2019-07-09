@@ -3,7 +3,7 @@ node_modules
 .eslintrc.js
 .gitignore
 .npmignore
-.tarvis.yml
+.travis.yml
 screenshot.png
 screenshot1.png
 .git*
