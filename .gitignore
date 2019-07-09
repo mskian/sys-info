@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+.eslintrc.js
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Editors
+.vscode/*
