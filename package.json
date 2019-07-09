@@ -4,8 +4,7 @@
   "description": "Get your Linux Server System Info.",
   "main": "system.js",
   "scripts": {
-    "start": "node system.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node system.js"
   },
   "bin": {
     "mysysinfo": "system.js"
