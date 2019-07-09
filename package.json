@@ -1,5 +1,5 @@
 {
-  "name": "sys-info",
+  "name": "system-info",
   "version": "0.0.1",
   "description": "Get your Linux or Windows System Info.",
   "main": "system.js",
