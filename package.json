@@ -1,6 +1,6 @@
 {
   "name": "mysystem-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get your Linux or Windows System Info.",
   "main": "system.js",
   "scripts": {
