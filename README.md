@@ -59,6 +59,16 @@ mysysinfo
 
 Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminformation>
 
+## Changelogs
+
+**v0.0.1**
+
+- First Release
+
+**v0.0.2**
+
+- Add `.travis.yml` to `.npmignore`
+
 ## License
 
 MIT

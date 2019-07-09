@@ -34,7 +34,7 @@ async function go() {
 		const dataos = await si.osInfo();
 		const datacpu = await si.cpu();
 		const datamem = await si.mem();
-		const datadisk = await si.blockDevices();
+		const datadisk = await si.fsSize();
 		const datatime = await si.time();
 		var sysos = dataos;
 		var syscpu = datacpu;
@@ -75,6 +75,9 @@ async function go() {
 		console.log(chalk.yellowBright('Free Swap Memory:' + (bytesToSize(sysmem.swapfree))));
 		console.log(chalk.blueBright('---------------------------'));
 		console.log(chalk.whiteBright('Disk Size:' + (bytesToSize(sysdisk[0].size))));
+		console.log(chalk.whiteBright('Disk used:' + (bytesToSize(sysdisk[0].used))));
+		console.log(chalk.whiteBright('Disk Usage:' +  sysdisk[0].use + '%'));
+		console.log(chalk.whiteBright('Location:' +  sysdisk[0].fs));
 		console.log(chalk.blueBright('---------------------------'));
 		console.log(chalk.greenBright('Time Zone:' + systime.timezone));
 		console.log(chalk.greenBright('Time Zone Name:' + systime.timezoneName));
