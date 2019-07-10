@@ -69,6 +69,12 @@ Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminform
 
 - Add `.travis.yml` to `.npmignore`
 
+**v0.0.3**
+
+- Replace blockDevices with fsSize For proper Showing Proper Disk Usage
+- still we need More information from Other Diskblocks but it shown one only
+- Refer - <https://github.com/sebhildebrandt/systeminformation/issues/260>
+
 ## License
 
 MIT
