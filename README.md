@@ -2,7 +2,7 @@
 
 > Get your Linux or Windows System Info 🗃  
 
-[![Build Status](https://travis-ci.org/mskian/sys-info.svg?branch=master)](https://travis-ci.org/mskian/sys-info)  
+[![dependencies Status](https://david-dm.org/mskian/sys-info/status.png)](https://david-dm.org/mskian/sys-info) [![Build Status](https://travis-ci.org/mskian/sys-info.svg?branch=master)](https://travis-ci.org/mskian/sys-info)  
 
 ![System Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot.png)  
 
