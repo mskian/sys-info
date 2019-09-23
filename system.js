@@ -4,7 +4,6 @@ const si = require('systeminformation');
 const ora = require('ora');
 const chalk = require('chalk');
 var moment = require('moment');
-moment().format();
 
 // JavaScript To Convert Bytes To MB, KB, Etc - https://gist.github.com/lanqy/5193417
 function bytesToSize(bytes) {

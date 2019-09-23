@@ -75,6 +75,11 @@ Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminform
 - still we need More information from Other Diskblocks but it shown one only
 - Refer - <https://github.com/sebhildebrandt/systeminformation/issues/260>
 
+**v0.0.4**
+
+- Remove Unused Code
+- Dependency Update
+
 ## License
 
 MIT
