@@ -69,7 +69,7 @@ Your PR's are Always welcome 🦄
 
 ## 🐛 Bug Report
 
-If you find any issues create an issue Ticket Here ✉ <https://github.com/mskian/ssl-expiry-reminder/issues>
+If you find any issues create an issue Ticket Here ✉ <https://github.com/mskian/sys-info/issues>
 
 ## 📑 Changelogs
 
@@ -96,6 +96,10 @@ If you find any issues create an issue Ticket Here ✉ <https://github.com/mskia
 
 - Update Dependency
 - Improved Readme
+
+**v0.0.6**
+
+- No Major Changes
 
 ## ☑ License
 
