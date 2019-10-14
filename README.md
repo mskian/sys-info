@@ -101,6 +101,10 @@ If you find any issues create an issue Ticket Here ✉ <https://github.com/mskia
 
 - No Major Changes
 
+**v0.0.7**
+
+- Remove Colors and Lines from Console log Output (Simplify)
+
 ## ☑ License
 
 MIT
