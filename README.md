@@ -1,4 +1,4 @@
-# MY System INFO
+# MY System INFO 🖥
 
 > Get your Linux or Windows System Info 🗃  
 
@@ -8,12 +8,12 @@
 
 ![System Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot1.png)  
 
-## Requirements
+## ⚙ Requirements
 
 - Node 8x or 10x LTS
 - GIT for Clone the RESPO
 
-## Install via GIT
+## 📦 Install via GIT
 
 ```bash
 git clone https://github.com/mskian/sys-info.git
@@ -33,7 +33,7 @@ OR
 npm start
 ```
 
-## Used as CLI
+## 🌀 Used as CLI
 
 - Open Cloned Location
 
@@ -45,7 +45,7 @@ npm link
 mysysinfo
 ```
 
-## Install via NPM
+## 📦 Install via NPM
 
 ```bash
 npm install -g mysystem-info
@@ -55,11 +55,23 @@ npm install -g mysystem-info
 mysysinfo
 ```
 
-## Library
+## 🖥 Supported OS
+
+I am Tested this on Ubuntu and Windows 10 it works well but I gathered some issues on Windows after fetching the Output it does not exit the Process if you are Facing this issue please open an issue ticket with Proper error details.
+
+## 🗃 Library
 
 Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminformation>
 
-## Changelogs
+## 🏗 Contributions
+
+Your PR's are Always welcome 🦄
+
+## 🐛 Bug Report
+
+If you find any issues create an issue Ticket Here ✉ <https://github.com/mskian/ssl-expiry-reminder/issues>
+
+## 📑 Changelogs
 
 **v0.0.1**
 
@@ -80,6 +92,11 @@ Node `systeminformation` Library <https://github.com/sebhildebrandt/systeminform
 - Remove Unused Code
 - Dependency Update
 
-## License
+**v0.0.5**
+
+- Update Dependency
+- Improved Readme
+
+## ☑ License
 
 MIT
