@@ -1,8 +1,5 @@
 name: sys-info-test
 description: 'Get System OS Information'
-branding:
-  icon: 'cloud-lightning'
-  color: 'gray-dark'
 
 on: [push]
 
