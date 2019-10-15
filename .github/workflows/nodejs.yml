@@ -1,5 +1,4 @@
 name: sys-info-test
-description: 'Get System OS Information'
 
 on: [push]
 
