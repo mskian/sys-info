@@ -1,6 +1,6 @@
-# MY System INFO 🖥
+# My System INFO 🖥
 
-> Get your Linux or Windows System Info 🗃  
+> Get your Linux Distro or Windows System Info 🗃  
 
 [![dependencies Status](https://david-dm.org/mskian/sys-info/status.png)](https://david-dm.org/mskian/sys-info) [![Build Status](https://travis-ci.org/mskian/sys-info.svg?branch=master)](https://travis-ci.org/mskian/sys-info) [![Github Workflow](https://github.com//mskian/sys-info/workflows/sys-info-test/badge.svg)](https://github.com/mskian/sys-info/actions)  
 
@@ -104,6 +104,12 @@ If you find any issues create an issue Ticket Here ✉ <https://github.com/mskia
 **v0.0.7**
 
 - Remove Colors and Lines from Console log Output (Simplify)
+
+**v0.0.8**
+
+- Add Github Workflow Test
+- Bring back Text color on Terminal
+- Windows CMD Stucks After Fetching the System info Output (I due some npm module issues)
 
 ## ☑ License
 

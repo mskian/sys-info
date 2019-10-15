@@ -2,7 +2,8 @@
 
 const si = require('systeminformation');
 const ora = require('ora');
-var moment = require('moment');
+const chalk = require('chalk');
+const moment = require('moment');
 
 // JavaScript To Convert Bytes To MB, KB, Etc - https://gist.github.com/lanqy/5193417
 function bytesToSize(bytes) {
@@ -17,6 +18,7 @@ async function go() {
 
 	const spinner = new ora({
 		text: 'Fetching your System Data',
+		spinner: 'hamburger'
 	});
 
 	spinner.start();
@@ -39,48 +41,53 @@ async function go() {
 		var sysdisk = datadisk;
 		var systime = datatime;
 		spinner.stop();
-		console.log('Platform:' + sysos.platform);
-		console.log('Distro:' + sysos.distro);
+		console.log('\n');
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.cyanBright('Platform:' + sysos.platform));
+		console.log(chalk.cyanBright('Distro:' + sysos.distro));
 		if (sysos.codename == 0) {
-			console.log('CODE: n/a');
+			console.log(chalk.cyanBright('CODE: n/a'));
 		} else {
-			console.log('CODE:' + sysos.codename);
+			console.log(chalk.cyanBright('CODE:' + sysos.codename));
 		}
-		console.log('Version:' + sysos.release)
-		console.log('Kernel:' + sysos.kernel);
+		console.log(chalk.cyanBright('Version:' + sysos.release));
+		console.log(chalk.cyanBright('Kernel:' + sysos.kernel));
 		if (sysos.build == 0) {
-			console.log('Build: n/a');
+			console.log(chalk.cyanBright('Build: n/a'));
 		} else {
-			console.log('Build:' + sysos.build);
+			console.log(chalk.cyanBright('Build:' + sysos.build));
 		}
-		console.log('Architecture:' + sysos.arch);
+		console.log(chalk.cyanBright('Architecture:' + sysos.arch));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.magentaBright('Brand:' + syscpu.brand));
+		console.log(chalk.magentaBright('Manufacturer:' + syscpu.manufacturer));
+		console.log(chalk.magentaBright('Cores:' + syscpu.cores));
+		console.log(chalk.magentaBright('Processors:' + syscpu.processors));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.yellowBright('Total Memory:' + (bytesToSize(sysmem.total))));
+		console.log(chalk.yellowBright('Free Memory:' + (bytesToSize(sysmem.free))));
+		console.log(chalk.yellowBright('Used Memory:' + (bytesToSize(sysmem.used))));
+		console.log(chalk.yellowBright('Active Memory:' + (bytesToSize(sysmem.active))));
+		console.log(chalk.yellowBright('Available Memory:' + (bytesToSize(sysmem.available))));
+		console.log(chalk.yellowBright('Total Swap Memory:' + (bytesToSize(sysmem.swaptotal))));
+		console.log(chalk.yellowBright('Total Swap Memory Used:' + (bytesToSize(sysmem.swapused))));
+		console.log(chalk.yellowBright('Free Swap Memory:' + (bytesToSize(sysmem.swapfree))));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.whiteBright('Disk Size:' + (bytesToSize(sysdisk[0].size))));
+		console.log(chalk.whiteBright('Disk used:' + (bytesToSize(sysdisk[0].used))));
+		console.log(chalk.whiteBright('Disk Usage:' +  sysdisk[0].use + '%'));
+		console.log(chalk.whiteBright('Location:' +  sysdisk[0].fs));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.greenBright('Time Zone:' + systime.timezone));
+		console.log(chalk.greenBright('Time Zone Name:' + systime.timezoneName));
+		console.log(chalk.greenBright('Current Time:' + (moment(systime.current).format('LLLL'))));
+		console.log(chalk.blueBright('---------------------------'));
 		console.log('\n');
-		console.log('Brand:' + syscpu.brand);
-		console.log('Manufacturer:' + syscpu.manufacturer);
-		console.log('Cores:' + syscpu.cores);
-		console.log('Processors:' + syscpu.processors);
-		console.log('\n');
-		console.log('Total Memory:' + (bytesToSize(sysmem.total)));
-		console.log('Free Memory:' + (bytesToSize(sysmem.free)));
-		console.log('Used Memory:' + (bytesToSize(sysmem.used)));
-		console.log('Active Memory:' + (bytesToSize(sysmem.active)));
-		console.log('Available Memory:' + (bytesToSize(sysmem.available)));
-		console.log('Total Swap Memory:' + (bytesToSize(sysmem.swaptotal)));
-		console.log('Total Swap Memory Used:' + (bytesToSize(sysmem.swapused)));
-		console.log('Free Swap Memory:' + (bytesToSize(sysmem.swapfree)));
-		console.log('\n');
-		console.log('Disk Size:' + (bytesToSize(sysdisk[0].size)));
-		console.log('Disk used:' + (bytesToSize(sysdisk[0].used)));
-		console.log('Disk Usage:' +  sysdisk[0].use + '%');
-		console.log('Location:' +  sysdisk[0].fs);
-		console.log('\n');
-		console.log('Time Zone:' + systime.timezone);
-		console.log('Time Zone Name:' + systime.timezoneName);
-		console.log('Current Time:' + (moment(systime.current).format('LLLL')));
 
 	} catch (e) {
 		spinner.stop();
 		console.log(e)
 	}
 }
+
 go();
