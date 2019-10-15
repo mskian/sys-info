@@ -7,6 +7,7 @@ node_modules
 screenshot.png
 screenshot1.png
 .git*
+.github
 
 # Optional npm cache directory
 .npm

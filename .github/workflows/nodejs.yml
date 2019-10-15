@@ -1,12 +1,15 @@
 name: sys-info-test
+description: 'Get System OS Information'
+branding:
+  icon: 'cloud-lightning'
+  color: 'gray-dark'
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@master
     - name: use npm
