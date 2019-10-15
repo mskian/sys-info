@@ -1,0 +1,15 @@
+name: sys-info-test
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: use npm
+      run: |
+       npm install
+       npm start
