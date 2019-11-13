@@ -111,6 +111,10 @@ If you find any issues create an issue Ticket Here ✉ <https://github.com/mskia
 - Bring back Text color on Terminal
 - Windows CMD Stucks After Fetching the System info Output (I due some npm module issues)
 
+**v0.0.9**
+
+- Update dependencies
+
 ## ☑ License
 
 MIT

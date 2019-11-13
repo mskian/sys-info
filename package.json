@@ -1,35 +1,35 @@
 {
-  "name": "mysystem-info",
-  "version": "0.0.7",
-  "description": "Get your Linux Distro or Windows System Info.",
-  "main": "system.js",
-  "scripts": {
-    "start": "node system.js"
-  },
-  "bin": {
-    "mysysinfo": "./system.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mskian/sys-info.git"
-  },
-  "keywords": [
-    "linux",
-    "Windows",
-    "VPS",
-    "Systeminfo",
-    "server"
-  ],
-  "author": "Santhosh Veer",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mskian/sys-info/issues"
-  },
-  "homepage": "https://github.com/mskian/sys-info/#readme",
-  "dependencies": {
-    "chalk": "^3.0.0",
-    "moment": "^2.24.0",
-    "ora": "^4.0.2",
-    "systeminformation": "^4.14.12"
-  }
+	"name": "mysystem-info",
+	"version": "0.0.8",
+	"description": "Get your Linux Distro or Windows System Info.",
+	"main": "system.js",
+	"scripts": {
+		"start": "node system.js"
+	},
+	"bin": {
+		"mysysinfo": "./system.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mskian/sys-info.git"
+	},
+	"keywords": [
+		"linux",
+		"Windows",
+		"VPS",
+		"Systeminfo",
+		"server"
+	],
+	"author": "Santhosh Veer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mskian/sys-info/issues"
+	},
+	"homepage": "https://github.com/mskian/sys-info/#readme",
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"moment": "^2.24.0",
+		"ora": "^4.0.3",
+		"systeminformation": "^4.15.3"
+	}
 }
