@@ -115,6 +115,10 @@ If you find any issues create an issue Ticket Here ✉ <https://github.com/mskia
 
 - Update dependencies
 
+**v1.0.0**
+
+- Update dependencies
+
 ## ☑ License
 
 MIT
