@@ -8,6 +8,8 @@ screenshot.png
 screenshot1.png
 .git*
 .github*
+.dependabot
+renovate.json
 
 # Optional npm cache directory
 .npm
