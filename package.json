@@ -29,7 +29,7 @@
 	"dependencies": {
 		"chalk": "^4.1.0",
 		"moment": "^2.27.0",
-		"ora": "^4.1.1",
+		"ora": "^5.0.0",
 		"systeminformation": "^4.26.10"
 	}
 }
