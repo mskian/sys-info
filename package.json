@@ -30,6 +30,6 @@
 		"chalk": "^4.1.0",
 		"moment": "^2.29.1",
 		"ora": "^5.2.0",
-		"systeminformation": "^4.33.6"
+		"systeminformation": "^4.34.5"
 	}
 }
