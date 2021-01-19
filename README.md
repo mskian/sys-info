@@ -10,7 +10,7 @@
 
 ## ⚙ Requirements
 
-- Node 8x or 10x LTS
+- Node 12x or 14x LTS
 - GIT for Clone the RESPO
 
 ## 📦 Install via GIT
@@ -70,54 +70,6 @@ Your PR's are Always welcome 🦄
 ## 🐛 Bug Report
 
 If you find any issues create an issue Ticket Here ✉ <https://github.com/mskian/sys-info/issues>
-
-## 📑 Changelogs
-
-**v0.0.1**
-
-- First Release
-
-**v0.0.2**
-
-- Add `.travis.yml` to `.npmignore`
-
-**v0.0.3**
-
-- Replace blockDevices with fsSize For proper Showing Proper Disk Usage
-- still we need More information from Other Diskblocks but it shown one only
-- Refer - <https://github.com/sebhildebrandt/systeminformation/issues/260>
-
-**v0.0.4**
-
-- Remove Unused Code
-- Dependency Update
-
-**v0.0.5**
-
-- Update Dependency
-- Improved Readme
-
-**v0.0.6**
-
-- No Major Changes
-
-**v0.0.7**
-
-- Remove Colors and Lines from Console log Output (Simplify)
-
-**v0.0.8**
-
-- Add Github Workflow Test
-- Bring back Text color on Terminal
-- Windows CMD Stucks After Fetching the System info Output (I due some npm module issues)
-
-**v0.0.9**
-
-- Update dependencies
-
-**v1.0.0**
-
-- Update dependencies
 
 ## ☑ License
 
