@@ -1,13 +1,13 @@
 {
 	"name": "mysystem-info",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Get your Linux Distro or Windows System Info.",
 	"main": "system.js",
 	"scripts": {
 		"start": "node system.js"
 	},
 	"bin": {
-		"mysysinfo": "./system.js"
+		"mysysinfo": "system.js"
 	},
 	"repository": {
 		"type": "git",
