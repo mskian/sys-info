@@ -4,6 +4,12 @@ const si = require('systeminformation');
 const ora = require('ora');
 const chalk = require('chalk');
 const moment = require('moment');
+const updateNotifier = require('update-notifier');
+
+const pkg = require('./package.json');
+updateNotifier({
+    pkg
+}).notify();
 
 // JavaScript To Convert Bytes To MB, KB, Etc - https://gist.github.com/lanqy/5193417
 function bytesToSize(bytes) {
@@ -77,6 +83,16 @@ async function go() {
 		console.log(chalk.whiteBright('Disk used:' + (bytesToSize(sysdisk[0].used))));
 		console.log(chalk.whiteBright('Disk Usage:' +  sysdisk[0].use + '%'));
 		console.log(chalk.whiteBright('Location:' +  sysdisk[0].fs));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.whiteBright('Disk Size:' + (bytesToSize(sysdisk[1].size))));
+		console.log(chalk.whiteBright('Disk used:' + (bytesToSize(sysdisk[1].used))));
+		console.log(chalk.whiteBright('Disk Usage:' +  sysdisk[1].use + '%'));
+		console.log(chalk.whiteBright('Location:' +  sysdisk[1].fs));
+		console.log(chalk.blueBright('---------------------------'));
+		console.log(chalk.whiteBright('Disk Size:' + (bytesToSize(sysdisk[2].size))));
+		console.log(chalk.whiteBright('Disk used:' + (bytesToSize(sysdisk[2].used))));
+		console.log(chalk.whiteBright('Disk Usage:' +  sysdisk[2].use + '%'));
+		console.log(chalk.whiteBright('Location:' +  sysdisk[2].fs));
 		console.log(chalk.blueBright('---------------------------'));
 		console.log(chalk.greenBright('Time Zone:' + systime.timezone));
 		console.log(chalk.greenBright('Time Zone Name:' + systime.timezoneName));
