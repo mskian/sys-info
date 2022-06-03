@@ -30,7 +30,7 @@
 		"chalk": "^4.1.2",
 		"moment": "^2.29.3",
 		"ora": "^5.4.1",
-		"systeminformation": "^5.11.15",
+		"systeminformation": "^5.11.16",
 		"update-notifier": "^5.1.0"
 	}
 }
