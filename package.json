@@ -31,6 +31,6 @@
 		"moment": "^2.29.3",
 		"ora": "^5.4.1",
 		"systeminformation": "^5.11.22",
-		"update-notifier": "^5.1.0"
+		"update-notifier": "^6.0.0"
 	}
 }
