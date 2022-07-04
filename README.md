@@ -2,7 +2,7 @@
 
 > Get your Linux Distro or Windows System Info 🗃  
 
-[![dependencies Status](https://david-dm.org/mskian/sys-info/status.png)](https://david-dm.org/mskian/sys-info)  
+[![sys-info-test](https://github.com/mskian/sys-info/actions/workflows/nodejs.yml/badge.svg)](https://github.com/mskian/sys-info/actions/workflows/nodejs.yml)  
 
 ![System Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot.png)  
 
