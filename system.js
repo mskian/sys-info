@@ -6,7 +6,7 @@ import chalk  from 'chalk';
 import moment from 'moment';
 import updateNotifier from 'update-notifier';
 import { readFileSync } from 'fs';
-const packageJSON = JSON.parse(readFileSync('./package.json'));
+const packageJSON = JSON.parse(readFileSync(new URL("./package.json", import.meta.url)));
 
 updateNotifier({pkg: packageJSON}).notify();
 
