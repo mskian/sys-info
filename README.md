@@ -2,7 +2,7 @@
 
 > Get your Linux Distro or Windows System Info 🗃  
 
-[![dependencies Status](https://david-dm.org/mskian/sys-info/status.png)](https://david-dm.org/mskian/sys-info) [![Github Workflow](https://github.com//mskian/sys-info/workflows/sys-info-test/badge.svg)](https://github.com/mskian/sys-info/actions)  
+[![dependencies Status](https://david-dm.org/mskian/sys-info/status.png)](https://david-dm.org/mskian/sys-info)  
 
 ![System Info](https://raw.githubusercontent.com/mskian/sys-info/master/screenshot.png)  
 
@@ -10,7 +10,7 @@
 
 ## ⚙ Requirements
 
-- Node 12x or 14x LTS
+- Node 14x or 16x LTS
 - GIT for Clone the RESPO
 
 ## 📦 Install via GIT
