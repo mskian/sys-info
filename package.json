@@ -29,7 +29,7 @@
 	"homepage": "https://github.com/mskian/sys-info/#readme",
 	"dependencies": {
 		"chalk": "^5.0.1",
-		"moment": "^2.29.3",
+		"moment": "^2.29.4",
 		"ora": "^6.1.2",
 		"systeminformation": "^5.11.22",
 		"update-notifier": "^6.0.2"
