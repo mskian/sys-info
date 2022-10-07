@@ -28,7 +28,7 @@
 	},
 	"homepage": "https://github.com/mskian/sys-info/#readme",
 	"dependencies": {
-		"chalk": "^5.0.1",
+		"chalk": "^5.1.0",
 		"moment": "^2.29.4",
 		"ora": "^6.1.2",
 		"systeminformation": "^5.12.6",
