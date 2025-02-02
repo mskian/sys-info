@@ -30,7 +30,7 @@
 	"dependencies": {
 		"chalk": "^5.4.1",
 		"moment": "^2.30.1",
-		"ora": "^8.1.1",
+		"ora": "^8.2.0",
 		"systeminformation": "^5.25.11",
 		"update-notifier": "^7.3.1"
 	}
